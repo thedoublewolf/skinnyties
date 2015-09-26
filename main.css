@@ -1,5 +1,5 @@
 body {
-	min-width: 1400px;
+	min-width: 1600px;
 }
 
 header {
@@ -109,4 +109,81 @@ header {
 	text-align: center;
 	padding: 20px;
 }
+
+.body2 {
+	width: 100%;
+	margin-top: 50px;
+}
+
+.images2 {
+	text-align: center;
+}
+
+.acc {
+	width: 400px;
+}
+
+.items {
+	display: inline-block;
+	position: relative;
+	margin: 10px;
+}
+
+.items p {
+	position: absolute;
+	font-size: 30px;
+	right: 20px;
+	top: 0;
+}
+
+.text2 {
+	text-align: center;
+	padding: 60px;
+	font-size: 30px;
+}
+
+.text2 a {
+	text-decoration: none;
+	font-size: 15px;
+	color: #3F9FFF;
+}
+
+.body3:before {
+	content: "";
+	background: url('assets/hatch-light%402x.png');
+	background-repeat: repeat-x;
+	padding: 50%;
+	position: absolute;
+}
+
+.body3 {
+	width: 100%;
+	position: relative;
+}
+
+.more {
+	display: inline-block;
+}
+
+.footer:before {
+	content: "";
+	background: url('assets/perforated-bottom%402x.png');
+	background-repeat: repeat-x;
+	padding: 50%;
+	position: absolute;
+}
+
+.footer div {
+	width: 100%;
+	position: relative;
+}
+
+
+
+
+
+
+
+
+
 
