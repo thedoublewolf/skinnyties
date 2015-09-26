@@ -1,6 +1,9 @@
+body {
+	min-width: 1400px;
+}
+
 header {
 	padding: 10px;
-	margin: 10px;
 	background-color: #F26C2A;
 	color: white;
 	text-shadow: -1px 1px 1px #C15521;
@@ -32,7 +35,7 @@ header {
 	margin-bottom: 10px;
 }
 .subheader {
-	width: 100%;
+	text-align: center;
 }
 .subheader a {
 	text-decoration: none;
@@ -51,7 +54,7 @@ header {
 .sub2 {
 	color: #303030;
 	display: inline-block;
-	font-size: 40px;
+	font-size: 30px;
 	margin-left: 20px;
 	margin-right: 20px;
 	text-align: center;
@@ -59,15 +62,16 @@ header {
 }
 
 .cart {
+	display: inline-block;
 	color: #909090;
 	border: 1px solid #E0E0E0;
 	padding: 10px;
 	margin-left: 50px;
-	width: 400px;
+	width: 100px;
 	border-radius: 5px;
 }
 
-.sprite {
+.sprite-cart {
 	background: url('assets/sprite@2x.png') no-repeat -45px -16px;
 	background-size: 400px 200px;
 	width: 14px;
@@ -75,3 +79,34 @@ header {
 	display: inline-block;
 	margin-right: 5px;
 }
+
+.body1:before {
+	content: "";
+	background: url('assets/perforated-bottom%402x.png');
+	background-repeat: repeat-x;
+	padding: 50%;
+	position: absolute;
+}
+
+.body1 {
+	width: 100%;
+	background-color: #F4F4F4;
+	position: relative;
+}
+
+.images1 {
+	text-align: center;
+}
+
+.ties {
+	display: inline-block;
+	padding: 5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.text1 {
+	text-align: center;
+	padding: 20px;
+}
+
