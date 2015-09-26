@@ -31,3 +31,47 @@ header {
 	margin-right: 15px;
 	margin-bottom: 10px;
 }
+.subheader {
+	width: 100%;
+}
+.subheader a {
+	text-decoration: none;
+}
+
+.subheader img {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.sub1 {
+	display: inline-block;
+	color: #909090;
+}
+
+.sub2 {
+	color: #303030;
+	display: inline-block;
+	font-size: 40px;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.cart {
+	color: #909090;
+	border: 1px solid #E0E0E0;
+	padding: 10px;
+	margin-left: 50px;
+	width: 400px;
+	border-radius: 5px;
+}
+
+.sprite {
+	background: url('assets/sprite@2x.png') no-repeat -45px -16px;
+	background-size: 400px 200px;
+	width: 14px;
+	height: 12px;
+	display: inline-block;
+	margin-right: 5px;
+}
