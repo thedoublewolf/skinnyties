@@ -101,8 +101,6 @@ header {
 .ties {
 	display: inline-block;
 	padding: 5px;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 .text1 {
@@ -113,6 +111,7 @@ header {
 .body2 {
 	width: 100%;
 	margin-top: 50px;
+	position: relative;
 }
 
 .images2 {
@@ -148,7 +147,7 @@ header {
 	color: #3F9FFF;
 }
 
-.body3:before {
+.body2:after {
 	content: "";
 	background: url('assets/hatch-light%402x.png');
 	background-repeat: repeat-x;
@@ -159,10 +158,19 @@ header {
 .body3 {
 	width: 100%;
 	position: relative;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 30px;
 }
 
-.more {
+.body3 div {
 	display: inline-block;
+	text-align: left;
+	vertical-align: top;
+	}
+
+.body3 p {
+	margin: 0;
 }
 
 .footer:before {
@@ -173,10 +181,22 @@ header {
 	position: absolute;
 }
 
-.footer div {
+.footer {
 	width: 100%;
+	background-color: #F4F4F4;
+	text-align: center;
 	position: relative;
 }
+
+.footer div {
+	display: inline-block;
+	text-align: left;
+	vertical-align: top;
+}
+
+.contact-us {
+	vertical-align: bottom;
+} 
 
 
 
