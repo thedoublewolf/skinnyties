@@ -1,0 +1,1 @@
+A splicing project utilizing multiple images to practice layout techniques, including the use of relative/absolute positioning.
