@@ -1,14 +1,26 @@
 body {
 	min-width: 1600px;
 	margin: 0;
+	font-family: 'Lato', sans-serif;
+}
+
+input {
+	padding: 5px;
+	border-radius: 5px;
 }
 
 header {
-	padding: 10px;
+	padding-left: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	background-color: #F26C2A;
 	color: white;
 	text-shadow: -1px 1px 1px #C15521;
 	width: 100%;
+}
+
+header span {
+	padding-left: 30px;
 }
 
 .slide-text {
@@ -32,12 +44,33 @@ header {
 	padding: 10px;
 	margin-top: 10px;
 	margin-left: 50px;
-	margin-right: 15px;
 	margin-bottom: 10px;
 }
 .subheader {
 	text-align: center;
+	font-weight: 300;
+	position: relative;
+	max-width: 1600px;
 }
+
+.signin {
+	display: inline-block;
+	position: absolute;
+	right: 167px;
+	bottom: 163px;
+}
+
+.sign-in {
+	color: #909090;
+	text-decoration: none;
+	margin-right: 10px;
+}
+
+.register {
+	color: #909090;
+	text-decoration: none;
+}
+
 .subheader a {
 	text-decoration: none;
 }
@@ -47,9 +80,8 @@ header {
 	vertical-align: middle;
 }
 
-.sub1 {
+.subheader input {
 	display: inline-block;
-	color: #909090;
 }
 
 .sub2 {
@@ -81,11 +113,25 @@ header {
 	margin-right: 5px;
 }
 
+.zero {
+	display: inline-block;
+	background-color: #C8C8C8;
+	margin-left: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 5px;
+	color: white;
+}
+
 .body1:before {
 	content: "";
 	background: url('assets/perforated-bottom%402x.png');
 	background-repeat: repeat-x;
 	padding: 50%;
+	padding-bottom: 0px;
+	padding-top: 10px;
 	position: absolute;
 }
 
@@ -106,7 +152,9 @@ header {
 
 .text1 {
 	text-align: center;
-	padding: 20px;
+	padding: 75px;
+	font-size: 75px;
+	font-weight: 300;
 }
 
 .body2 {
@@ -139,7 +187,9 @@ header {
 .text2 {
 	text-align: center;
 	padding: 60px;
-	font-size: 30px;
+	font-size: 40px;
+	font-weight: 300;
+	font-style: italic;
 }
 
 .text2 a {
@@ -153,6 +203,8 @@ header {
 	background: url('assets/hatch-light%402x.png');
 	background-repeat: repeat-x;
 	padding: 50%;
+	padding-bottom: 0px;
+	padding-top: 10px;
 	position: absolute;
 }
 
@@ -188,12 +240,61 @@ header {
 	padding-bottom: 10px;
 }
 
+div.sprite-facebook {
+	background: url('assets/sprite@2x.png') no-repeat -270px 0;
+	background-size: 400px 200px;
+	width: 35px;
+	height: 35px;
+	margin-top: 10px;
+	margin-left: 0;
+	margin-right: 5px;
+}
+
+div.sprite-pinterest {
+	background: url('assets/sprite@2x.png') no-repeat -270px -40px;
+	background-size: 400px 200px;
+	width: 35px;
+	height: 35px;
+	margin-top: 10px;
+	margin-left: 0;
+	margin-right: 5px;
+}
+
+div.sprite-twitter {
+background: url('assets/sprite@2x.png') no-repeat -270px -80px;
+	background-size: 400px 200px;
+	width: 35px;
+	height: 35px;
+	margin-top: 10px;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.more3 input {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.more3 a {
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	border-radius: 5px;
+	background-color: #3F9FFF;
+	border: 1px solid #3586DE;
+	text-shadow: none;
+	padding: 10px;
+}
+
 .footer:before {
 	content: "";
 	background: url('assets/perforated-bottom%402x.png');
 	background-repeat: repeat-x;
 	padding: 50%;
+	padding-bottom: 0px;
+	padding-top: 10px;
 	left: 0;
+	top: 0;
 	position: absolute;
 }
 
@@ -201,33 +302,54 @@ header {
 	width: 100%;
 	background-color: #F4F4F4;
 	text-align: center;
+	padding-top: 50px;
 	position: relative;
+	}
+
+.footer a {
+	text-decoration: none;
+	color: #909090;
+}
+
+.footer p {
+	margin-bottom: 5px;
 }
 
 .footer div {
 	display: inline-block;
 	text-align: left;
 	vertical-align: top;
+	margin-top: 10px;
+	margin-left: 50px;
 }
 
-.contact-us {
+div.shop-by {
+	margin-left: 0px;
+}
+
+div.contact-us {
 	padding: 25px;
-	margin: 50px;
 	width: 300px;
 	background-color: #A3AFC2;
 	color: white;
 	text-shadow: -1px 1px 1px #727B88;
+	margin-left: 350px;
 } 
 
-.here {
+div.here {
 	font-size: 25px;
+	font-weight: 300;
 	font-style: italic;
 	padding-bottom: 10px;
+	margin-left: 0;
 }
 
 .contact-us a {
+	color: white;
 	text-decoration: none;
 	font-size: 20px;
+	font-weight: 300;
+	border-radius: 5px;
 	background-color: #3F9FFF;
 	border: 1px solid #3586DE;
 	text-shadow: none;
@@ -237,7 +359,18 @@ header {
 
 footer {
 	background-color: #F4F4F4;
-	padding-left: 200px;
+	padding-top: 50px;
+	padding-left: 225px;
+	padding-bottom:50px;
+	color: #909090;
+}
+
+footer a {
+	color: #909090;
+}
+
+footer span {
+	padding-left: 30px;
 }
 
 
