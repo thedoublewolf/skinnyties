@@ -1,5 +1,6 @@
 body {
 	min-width: 1600px;
+	margin: 0;
 }
 
 header {
@@ -163,14 +164,28 @@ header {
 	margin-bottom: 30px;
 }
 
+.body3 a {
+	text-decoration: none;
+	color: #3F9FFF;
+}
+
 .body3 div {
 	display: inline-block;
 	text-align: left;
 	vertical-align: top;
+	margin-left: 10px;
+	margin-right: 10px;
 	}
+
+.body3 img {
+	width: 300px;
+}
 
 .body3 p {
 	margin: 0;
+	font-size: 20px;
+	font-weight: bold;
+	padding-bottom: 10px;
 }
 
 .footer:before {
@@ -178,6 +193,7 @@ header {
 	background: url('assets/perforated-bottom%402x.png');
 	background-repeat: repeat-x;
 	padding: 50%;
+	left: 0;
 	position: absolute;
 }
 
@@ -195,8 +211,43 @@ header {
 }
 
 .contact-us {
-	vertical-align: bottom;
+	padding: 25px;
+	margin: 50px;
+	width: 300px;
+	background-color: #A3AFC2;
+	color: white;
+	text-shadow: -1px 1px 1px #727B88;
 } 
+
+.here {
+	font-size: 25px;
+	font-style: italic;
+	padding-bottom: 10px;
+}
+
+.contact-us a {
+	text-decoration: none;
+	font-size: 20px;
+	background-color: #3F9FFF;
+	border: 1px solid #3586DE;
+	text-shadow: none;
+	padding: 10px;
+	float: right;
+}
+
+footer {
+	background-color: #F4F4F4;
+	padding-left: 200px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
